@@ -1,0 +1,65 @@
+
+📖 Story
+
+Deep in his mountainside meteorology lab, the mad scientist Kelvin has mastered weather prediction.
+
+Recently, Kelvin began publishing his weather forecasts on his website.
+However, there’s a problem: all of his forecasts describe the temperature in Kelvin.
+
+With our knowledge of JavaScript, we’ll help Kelvin by converting his forecasts:
+
+From Kelvin → Celsius → Fahrenheit
+
+And as extra practice, we’ll also convert Celsius → Newton
+
+🔢 Example
+
+283 K → 10 °C → 50 °F
+
+📝 Tasks (12 Steps)
+
+Set today’s forecast to 293 Kelvin.
+
+Create a variable kelvin and assign 293.
+
+Use const since it won’t change.
+
+Write a comment explaining this line of code.
+
+Convert Kelvin to Celsius.
+
+Formula: celsius = kelvin - 273
+
+Write a comment explaining this line of code.
+
+Convert Celsius to Fahrenheit.
+
+Formula: fahrenheit = celsius * (9/5) + 32
+
+Use let since you’ll change its value later.
+
+Write a comment explaining this line of code.
+
+Round Fahrenheit down using:
+
+fahrenheit = Math.floor(fahrenheit)
+
+Write a comment explaining this line of code.
+
+Print the result:
+
+console.log(\The temperature is ${fahrenheit} degrees Fahrenheit.`);`
+
+Run your program to see the result!
+
+Test with other values:
+
+Example: 0 Kelvin → -460 °F
+
+Extra practice: Convert Celsius to Newton scale.
+
+Formula: newton = celsius * (33/100)
+
+Round down with Math.floor().
+
+Print result with string interpolation.
