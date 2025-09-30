@@ -1,0 +1,21 @@
+//My age
+let myAge = 23;
+//create a variable named earlyYears and assign it a value 2.
+let earlyYears = 2
+
+earlyYears = myAge * 10.5;
+
+console.log(earlyYears);
+//since accounted for the first two years, minus myAge variable with 2.
+let laterYears = myAge - 2;
+//multiply layerYears * 4 to cal no of dog years accounted for by your later years.
+laterYears = laterYears * 4;
+console.log(laterYears)
+
+//add both earylYears & laterYears variable
+let MyAgeInDogYears = earlyYears + laterYears;
+//use the toLowerCase method on your name.
+var myName = 'NagaArvind'.toLowerCase()
+console.log(myName)
+//use template literals
+console.log(`my name is ${myName}. I am ${myAge}, and ${MyAgeInDogYears} years old in dog years`)
