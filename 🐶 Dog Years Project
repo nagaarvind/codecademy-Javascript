@@ -1,0 +1,87 @@
+🐶 Dog Years Project
+📖 Story
+
+Dogs age faster than humans. To compare their growth:
+
+The first 2 years of a dog’s life = 10.5 dog years each
+
+Each year after that = 4 dog years
+
+So, if you’re 8 years old:
+
+First 2 years → 2 × 10.5 = 21 dog years
+
+Remaining 6 years → 6 × 4 = 24 dog years
+
+Total → 45 dog years
+
+Instead of doing the math by hand, we’ll use JavaScript to write a program that converts human age into dog years.
+
+-------
+
+📝 Tasks (10 Steps)
+
+Set your age
+
+Create a variable myAge equal to your age (as a number).
+
+Add a comment explaining the line.
+
+Start with early years
+
+Create a variable earlyYears with the value 2.
+
+Comment: this represents the first 2 human years.
+
+Convert early years to dog years
+
+Multiply earlyYears by 10.5 using the *= operator.
+
+Calculate later years
+
+Subtract 2 from myAge and store the result in laterYears.
+
+Comment: this represents the remaining human years after the first 2.
+
+Convert later years to dog years
+
+Multiply laterYears by 4 using the *= operator.
+
+Add a comment explaining this calculation.
+
+(Optional Check)
+
+console.log(earlyYears);
+
+console.log(laterYears);
+
+Confirm the numbers look correct.
+
+Total age in dog years
+
+Add earlyYears + laterYears → store in myAgeInDogYears.
+
+Comment: this is your full age in dog years.
+
+Format your name
+
+Store your name as a string in myName.
+
+Call .toLowerCase() on it.
+
+Comment: .toLowerCase() makes your name all lowercase.
+
+Output the result
+
+Use console.log() with string interpolation:
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years, which is ${myAgeInDogYears} years old in dog years.`);
+
+
+Comment: this prints the final sentence with your details.
+
+Test with other ages
+
+Change myAge and re-run.
+
+(Extra practice: try rewriting without the *= operator).
